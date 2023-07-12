@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="coupon-customer-service" />
+        <module name="coupon-template-impl" />
+        <module name="coupon-template-api" />
+        <module name="coupon-template-dao" />
+        <module name="coupon-calculation-service" />
+        <module name="middleware" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="GeekBangSpringCloudDemo" options="" />
+      <module name="coupon-calculation-service" options="-parameters" />
+      <module name="coupon-customer-service" options="-parameters" />
+      <module name="coupon-template-api" options="-parameters" />
+      <module name="coupon-template-dao" options="-parameters" />
+      <module name="coupon-template-impl" options="-parameters" />
+      <module name="coupon-template-service" options="" />
+      <module name="middleware" options="-parameters" />
+      <module name="springboot-single" options="" />
+    </option>
+  </component>
+</project>
