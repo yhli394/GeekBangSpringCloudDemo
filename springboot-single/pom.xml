@@ -22,6 +22,7 @@
         <module>coupon-customer-service</module>
         <module>coupon-template-service</module>
         <module>middleware</module>
+        <module>coupon-calculation-service/coupon-calculation-api</module>
     </modules>
     <dependencyManagement>
         <dependencies>

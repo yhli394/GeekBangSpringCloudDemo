@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/springboot-single/coupon-calculation-service/coupon-calculation-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-single/coupon-calculation-service/coupon-calculation-impl/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-single/coupon-calculation-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-single/coupon-calculation-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-single/coupon-customer-service/coupon-customer-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-single/coupon-customer-service/coupon-customer-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-single/coupon-customer-service/coupon-customer-dao/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-single/coupon-customer-service/coupon-customer-impl/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-single/coupon-customer-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-single/coupon-customer-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-single/coupon-template-service/coupon-template-api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-single/coupon-template-service/coupon-template-dao/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-single/coupon-template-service/coupon-template-impl/src/main/java" charset="UTF-8" />
