@@ -21,7 +21,7 @@ public enum CouponType {
     private String code;
 
 
-    public static CouponType convert(String code,String name) {
+    public static CouponType convert(String code) {
         return Stream.of(values())
                 .filter(couponType -> couponType.code.equalsIgnoreCase(code))
                 .findFirst()

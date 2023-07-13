@@ -1,11 +1,13 @@
 package yhli.work.coupon.template.api.beans;
 
-import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import yhli.work.coupon.template.api.beans.rules.TemplateRule;
+
+import javax.validation.constraints.NotNull;
+
 
 /**
  * @projectName: GeekBangSpringCloudDemo
