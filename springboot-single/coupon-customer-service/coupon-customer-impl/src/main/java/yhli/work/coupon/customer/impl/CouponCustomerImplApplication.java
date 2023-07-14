@@ -15,6 +15,10 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @SpringBootApplication
 @EnableJpaAuditing
 @EnableTransactionManagement
+@EntityScan("yhli.work")
+@EnableJpaRepositories("yhli.work")
+//@ComponentScan(value = {"yhli.work.coupon.template.service"})
+@ComponentScan(value = {"yhli.work"})
 public class CouponCustomerImplApplication
 {
     public static void main( String[] args )
