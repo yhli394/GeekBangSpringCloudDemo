@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5c23482c-efea-4d82-a64a-95b04cef7881" name="Changes" comment="feat: 搭建优惠卷计算与用户服务">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/GeekBangSpringCloudDemo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-calculation-service/coupon-calculation-api/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-calculation-service/coupon-calculation-api/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-calculation-service/coupon-calculation-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-calculation-service/coupon-calculation-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-calculation-service/coupon-calculation-api/src/main/java/yhli/work/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-calculation-service/coupon-calculation-api/src/main/java/yhli/work/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-calculation-service/coupon-calculation-api/src/main/java/yhli/work/coupon/calculation/api/beans/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-calculation-service/coupon-calculation-api/src/main/java/yhli/work/coupon/calculation/api/beans/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-calculation-service/coupon-calculation-api/src/main/java/yhli/work/coupon/calculation/api/beans/ShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-calculation-service/coupon-calculation-api/src/main/java/yhli/work/coupon/calculation/api/beans/ShoppingCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-calculation-service/coupon-calculation-api/src/main/java/yhli/work/coupon/calculation/api/beans/SimulationOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-calculation-service/coupon-calculation-api/src/main/java/yhli/work/coupon/calculation/api/beans/SimulationOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-calculation-service/coupon-calculation-api/src/main/java/yhli/work/coupon/calculation/api/beans/SimulationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-calculation-service/coupon-calculation-api/src/main/java/yhli/work/coupon/calculation/api/beans/SimulationResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-calculation-service/coupon-calculation-api/src/test/java/yhli/work/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-calculation-service/coupon-calculation-api/src/test/java/yhli/work/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-calculation-service/coupon-calculation-impl/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-calculation-service/coupon-calculation-impl/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-calculation-service/coupon-calculation-impl/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-calculation-service/coupon-calculation-impl/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-calculation-service/coupon-calculation-impl/src/main/java/yhli/work/coupon/calculation/CouponCalculationImplApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-calculation-service/coupon-calculation-impl/src/main/java/yhli/work/coupon/calculation/CouponCalculationImplApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-calculation-service/coupon-calculation-impl/src/main/java/yhli/work/coupon/calculation/controller/CouponCalculationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-calculation-service/coupon-calculation-impl/src/main/java/yhli/work/coupon/calculation/controller/CouponCalculationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-calculation-service/coupon-calculation-impl/src/main/java/yhli/work/coupon/calculation/service/CouponCalculationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-calculation-service/coupon-calculation-impl/src/main/java/yhli/work/coupon/calculation/service/CouponCalculationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-calculation-service/coupon-calculation-impl/src/main/java/yhli/work/coupon/calculation/service/CouponCalculationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-calculation-service/coupon-calculation-impl/src/main/java/yhli/work/coupon/calculation/service/CouponCalculationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-calculation-service/coupon-calculation-impl/src/main/java/yhli/work/coupon/calculation/template/AbstractRuleTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-calculation-service/coupon-calculation-impl/src/main/java/yhli/work/coupon/calculation/template/AbstractRuleTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-calculation-service/coupon-calculation-impl/src/main/java/yhli/work/coupon/calculation/template/CouponTemplateFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-calculation-service/coupon-calculation-impl/src/main/java/yhli/work/coupon/calculation/template/CouponTemplateFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-calculation-service/coupon-calculation-impl/src/main/java/yhli/work/coupon/calculation/template/RuleTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-calculation-service/coupon-calculation-impl/src/main/java/yhli/work/coupon/calculation/template/RuleTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-calculation-service/coupon-calculation-impl/src/main/java/yhli/work/coupon/calculation/template/impl/AntiPauTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-calculation-service/coupon-calculation-impl/src/main/java/yhli/work/coupon/calculation/template/impl/AntiPauTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-calculation-service/coupon-calculation-impl/src/main/java/yhli/work/coupon/calculation/template/impl/DiscountTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-calculation-service/coupon-calculation-impl/src/main/java/yhli/work/coupon/calculation/template/impl/DiscountTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-calculation-service/coupon-calculation-impl/src/main/java/yhli/work/coupon/calculation/template/impl/DummyTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-calculation-service/coupon-calculation-impl/src/main/java/yhli/work/coupon/calculation/template/impl/DummyTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-calculation-service/coupon-calculation-impl/src/main/java/yhli/work/coupon/calculation/template/impl/LonelyNightTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-calculation-service/coupon-calculation-impl/src/main/java/yhli/work/coupon/calculation/template/impl/LonelyNightTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-calculation-service/coupon-calculation-impl/src/main/java/yhli/work/coupon/calculation/template/impl/MoneyOffTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-calculation-service/coupon-calculation-impl/src/main/java/yhli/work/coupon/calculation/template/impl/MoneyOffTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-calculation-service/coupon-calculation-impl/src/main/java/yhli/work/coupon/calculation/template/impl/RandomReductionTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-calculation-service/coupon-calculation-impl/src/main/java/yhli/work/coupon/calculation/template/impl/RandomReductionTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-calculation-service/coupon-calculation-impl/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-calculation-service/coupon-calculation-impl/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-calculation-service/coupon-calculation-impl/src/test/java/yhli/work/CouponCalculationImplAppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-calculation-service/coupon-calculation-impl/src/test/java/yhli/work/CouponCalculationImplAppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-calculation-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-calculation-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-customer-service/coupon-customer-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-customer-service/coupon-customer-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-customer-service/coupon-customer-api/src/main/java/yhli/work/coupon/customer/api/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-customer-service/coupon-customer-api/src/main/java/yhli/work/coupon/customer/api/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-customer-service/coupon-customer-api/src/main/java/yhli/work/coupon/customer/api/beans/RequestCoupon.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-customer-service/coupon-customer-api/src/main/java/yhli/work/coupon/customer/api/beans/RequestCoupon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-customer-service/coupon-customer-api/src/main/java/yhli/work/coupon/customer/api/beans/SearchCoupon.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-customer-service/coupon-customer-api/src/main/java/yhli/work/coupon/customer/api/beans/SearchCoupon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-customer-service/coupon-customer-api/src/main/java/yhli/work/coupon/customer/api/enums/CouponStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-customer-service/coupon-customer-api/src/main/java/yhli/work/coupon/customer/api/enums/CouponStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-customer-service/coupon-customer-api/src/test/java/yhli/work/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-customer-service/coupon-customer-api/src/test/java/yhli/work/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-customer-service/coupon-customer-api/target/classes/yhli/work/coupon/customer/api/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-customer-service/coupon-customer-api/target/classes/yhli/work/coupon/customer/api/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-customer-service/coupon-customer-api/target/classes/yhli/work/coupon/customer/api/beans/RequestCoupon.class" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-customer-service/coupon-customer-api/target/classes/yhli/work/coupon/customer/api/beans/RequestCoupon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-customer-service/coupon-customer-api/target/classes/yhli/work/coupon/customer/api/beans/SearchCoupon.class" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-customer-service/coupon-customer-api/target/classes/yhli/work/coupon/customer/api/beans/SearchCoupon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-customer-service/coupon-customer-api/target/classes/yhli/work/coupon/customer/api/enums/CouponStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-customer-service/coupon-customer-api/target/classes/yhli/work/coupon/customer/api/enums/CouponStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-customer-service/coupon-customer-dao/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-customer-service/coupon-customer-dao/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-customer-service/coupon-customer-dao/src/main/java/yhli/work/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-customer-service/coupon-customer-dao/src/main/java/yhli/work/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-customer-service/coupon-customer-dao/src/main/java/yhli/work/coupon/customer/dao/CouponDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-customer-service/coupon-customer-dao/src/main/java/yhli/work/coupon/customer/dao/CouponDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-customer-service/coupon-customer-dao/src/main/java/yhli/work/coupon/customer/dao/converter/CouponStatusConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-customer-service/coupon-customer-dao/src/main/java/yhli/work/coupon/customer/dao/converter/CouponStatusConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-customer-service/coupon-customer-dao/src/main/java/yhli/work/coupon/customer/dao/entity/Coupon.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-customer-service/coupon-customer-dao/src/main/java/yhli/work/coupon/customer/dao/entity/Coupon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-customer-service/coupon-customer-dao/src/test/java/yhli/work/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-customer-service/coupon-customer-dao/src/test/java/yhli/work/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-customer-service/coupon-customer-dao/target/classes/yhli/work/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-customer-service/coupon-customer-dao/target/classes/yhli/work/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-customer-service/coupon-customer-dao/target/classes/yhli/work/coupon/customer/dao/CouponDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-customer-service/coupon-customer-dao/target/classes/yhli/work/coupon/customer/dao/CouponDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-customer-service/coupon-customer-dao/target/classes/yhli/work/coupon/customer/dao/converter/CouponStatusConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-customer-service/coupon-customer-dao/target/classes/yhli/work/coupon/customer/dao/converter/CouponStatusConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-customer-service/coupon-customer-dao/target/classes/yhli/work/coupon/customer/dao/entity/Coupon$CouponBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-customer-service/coupon-customer-dao/target/classes/yhli/work/coupon/customer/dao/entity/Coupon$CouponBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-customer-service/coupon-customer-dao/target/classes/yhli/work/coupon/customer/dao/entity/Coupon.class" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-customer-service/coupon-customer-dao/target/classes/yhli/work/coupon/customer/dao/entity/Coupon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-customer-service/coupon-customer-impl/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-customer-service/coupon-customer-impl/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-customer-service/coupon-customer-impl/src/main/java/yhli/work/coupon/customer/impl/CouponCustomerImplApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-customer-service/coupon-customer-impl/src/main/java/yhli/work/coupon/customer/impl/CouponCustomerImplApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-customer-service/coupon-customer-impl/src/main/java/yhli/work/coupon/customer/impl/controller/CouponCustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-customer-service/coupon-customer-impl/src/main/java/yhli/work/coupon/customer/impl/controller/CouponCustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-customer-service/coupon-customer-impl/src/main/java/yhli/work/coupon/customer/impl/service/CouponConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-customer-service/coupon-customer-impl/src/main/java/yhli/work/coupon/customer/impl/service/CouponConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-customer-service/coupon-customer-impl/src/main/java/yhli/work/coupon/customer/impl/service/CouponCustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-customer-service/coupon-customer-impl/src/main/java/yhli/work/coupon/customer/impl/service/CouponCustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-customer-service/coupon-customer-impl/src/main/java/yhli/work/coupon/customer/impl/service/CouponCustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-customer-service/coupon-customer-impl/src/main/java/yhli/work/coupon/customer/impl/service/CouponCustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-customer-service/coupon-customer-impl/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-customer-service/coupon-customer-impl/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-customer-service/coupon-customer-impl/src/test/java/yhli/work/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-customer-service/coupon-customer-impl/src/test/java/yhli/work/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-customer-service/coupon-customer-impl/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-customer-service/coupon-customer-impl/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-customer-service/coupon-customer-impl/target/classes/yhli/work/coupon/customer/impl/CouponCustomerImplApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-customer-service/coupon-customer-impl/target/classes/yhli/work/coupon/customer/impl/CouponCustomerImplApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-customer-service/coupon-customer-impl/target/classes/yhli/work/coupon/customer/impl/controller/CouponCustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-customer-service/coupon-customer-impl/target/classes/yhli/work/coupon/customer/impl/controller/CouponCustomerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-customer-service/coupon-customer-impl/target/classes/yhli/work/coupon/customer/impl/service/CouponConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-customer-service/coupon-customer-impl/target/classes/yhli/work/coupon/customer/impl/service/CouponConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-customer-service/coupon-customer-impl/target/classes/yhli/work/coupon/customer/impl/service/CouponCustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-customer-service/coupon-customer-impl/target/classes/yhli/work/coupon/customer/impl/service/CouponCustomerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-customer-service/coupon-customer-impl/target/classes/yhli/work/coupon/customer/impl/service/CouponCustomerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-customer-service/coupon-customer-impl/target/classes/yhli/work/coupon/customer/impl/service/CouponCustomerServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-customer-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-customer-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-template-service/coupon-template-api/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-template-service/coupon-template-api/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-template-service/coupon-template-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-template-service/coupon-template-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-template-service/coupon-template-api/src/main/java/yhli/work/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-template-service/coupon-template-api/src/main/java/yhli/work/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-template-service/coupon-template-api/src/main/java/yhli/work/coupon/template/api/beans/CouponInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-template-service/coupon-template-api/src/main/java/yhli/work/coupon/template/api/beans/CouponInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-template-service/coupon-template-api/src/main/java/yhli/work/coupon/template/api/beans/CouponTemplateInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-template-service/coupon-template-api/src/main/java/yhli/work/coupon/template/api/beans/CouponTemplateInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-template-service/coupon-template-api/src/main/java/yhli/work/coupon/template/api/beans/PagedCouponTemplateInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-template-service/coupon-template-api/src/main/java/yhli/work/coupon/template/api/beans/PagedCouponTemplateInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-template-service/coupon-template-api/src/main/java/yhli/work/coupon/template/api/beans/TemplateSearchParams.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-template-service/coupon-template-api/src/main/java/yhli/work/coupon/template/api/beans/TemplateSearchParams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-template-service/coupon-template-api/src/main/java/yhli/work/coupon/template/api/beans/rules/Discount.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-template-service/coupon-template-api/src/main/java/yhli/work/coupon/template/api/beans/rules/Discount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-template-service/coupon-template-api/src/main/java/yhli/work/coupon/template/api/beans/rules/TemplateRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-template-service/coupon-template-api/src/main/java/yhli/work/coupon/template/api/beans/rules/TemplateRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-template-service/coupon-template-api/src/main/java/yhli/work/coupon/template/api/enums/CouponType.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-template-service/coupon-template-api/src/main/java/yhli/work/coupon/template/api/enums/CouponType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-template-service/coupon-template-api/src/test/java/yhli/work/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-template-service/coupon-template-api/src/test/java/yhli/work/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-template-service/coupon-template-dao/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-template-service/coupon-template-dao/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-template-service/coupon-template-dao/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-template-service/coupon-template-dao/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-template-service/coupon-template-dao/src/main/java/yhli/work/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-template-service/coupon-template-dao/src/main/java/yhli/work/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-template-service/coupon-template-dao/src/main/java/yhli/work/coupon/template/dao/CouponTemplateDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-template-service/coupon-template-dao/src/main/java/yhli/work/coupon/template/dao/CouponTemplateDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-template-service/coupon-template-dao/src/main/java/yhli/work/coupon/template/dao/converter/CouponTypeConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-template-service/coupon-template-dao/src/main/java/yhli/work/coupon/template/dao/converter/CouponTypeConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-template-service/coupon-template-dao/src/main/java/yhli/work/coupon/template/dao/converter/RuleConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-template-service/coupon-template-dao/src/main/java/yhli/work/coupon/template/dao/converter/RuleConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-template-service/coupon-template-dao/src/main/java/yhli/work/coupon/template/dao/entity/CouponTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-template-service/coupon-template-dao/src/main/java/yhli/work/coupon/template/dao/entity/CouponTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-template-service/coupon-template-dao/src/test/java/yhli/work/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-template-service/coupon-template-dao/src/test/java/yhli/work/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-template-service/coupon-template-impl/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-template-service/coupon-template-impl/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-template-service/coupon-template-impl/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-template-service/coupon-template-impl/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-template-service/coupon-template-impl/src/main/java/yhli/work/coupon/template/CouponTemplateImplApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-template-service/coupon-template-impl/src/main/java/yhli/work/coupon/template/CouponTemplateImplApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-template-service/coupon-template-impl/src/main/java/yhli/work/coupon/template/controller/CouponTemplateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-template-service/coupon-template-impl/src/main/java/yhli/work/coupon/template/controller/CouponTemplateController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-template-service/coupon-template-impl/src/main/java/yhli/work/coupon/template/converter/CouponTemplateConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-template-service/coupon-template-impl/src/main/java/yhli/work/coupon/template/converter/CouponTemplateConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-template-service/coupon-template-impl/src/main/java/yhli/work/coupon/template/service/CouponTemplateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-template-service/coupon-template-impl/src/main/java/yhli/work/coupon/template/service/CouponTemplateService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-template-service/coupon-template-impl/src/main/java/yhli/work/coupon/template/service/CouponTemplateServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-template-service/coupon-template-impl/src/main/java/yhli/work/coupon/template/service/CouponTemplateServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-template-service/coupon-template-impl/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-template-service/coupon-template-impl/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-template-service/coupon-template-impl/src/test/java/yhli/work/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-template-service/coupon-template-impl/src/test/java/yhli/work/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/coupon-template-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/coupon-template-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/middleware/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/middleware/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/middleware/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/middleware/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/middleware/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/middleware/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/middleware/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/middleware/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/middleware/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/middleware/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/middleware/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/middleware/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/middleware/src/main/java/com/example/middleware/MiddlewareApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/middleware/src/main/java/com/example/middleware/MiddlewareApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/middleware/src/main/java/com/example/middleware/ServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/middleware/src/main/java/com/example/middleware/ServletInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/middleware/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/middleware/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/middleware/src/test/java/com/example/middleware/MiddlewareApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/middleware/src/test/java/com/example/middleware/MiddlewareApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-single/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Environment\apache-maven-3.8.2\maven_repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../Environment/apache-maven-3.8.2" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="D:\Environment\apache-maven-3.8.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2SSdgHh9SXuXrXIUYqkD93pGMqM" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "corretto-11",
+    "last_opened_file_path": "D:/Idea/GeekBangSpringCloudDemo/Nacos-Loadbalancer",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "f9ea4e6bbc5983428715f98f664f9188",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Idea\GeekBangSpringCloudDemo\Nacos-Loadbalancer" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Idea\GeekBangSpringCloudDemo" />
+      <recent name="D:\Idea\GeekBangSpringCloudDemo\springboot-single" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="Application" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CouponTemplateImplApplication">
+    <configuration name="CouponCalculationImplApp (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="coupon-calculation-impl2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="yhli.work.coupon.calculation.CouponCalculationImplApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CouponCalculationImplApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="coupon-calculation-impl" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="yhli.work.coupon.calculation.CouponCalculationImplApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CouponCustomerImplApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="coupon-customer-impl" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="yhli.work.coupon.customer.impl.CouponCustomerImplApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CouponCustomerImplApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="coupon-customer-impl" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="yhli.work.coupon.customer.impl.CouponCustomerImplApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="yhli.work.coupon.customer.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CouponTemplateImplApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="coupon-template-impl" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="yhli.work.coupon.template.CouponTemplateImplApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="yhli.work.coupon.template.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MiddlewareApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="middleware2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.middleware.MiddlewareApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MiddlewareApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="middleware" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.middleware.MiddlewareApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.CouponTemplateImplApplication" />
+        <item itemvalue="Spring Boot.CouponCustomerImplApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5c23482c-efea-4d82-a64a-95b04cef7881" name="Changes" comment="" />
+      <created>1689144027989</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689144027989</updated>
+      <workItem from="1689144029343" duration="2567000" />
+      <workItem from="1689146675567" duration="331000" />
+      <workItem from="1689147037638" duration="7992000" />
+      <workItem from="1689210752564" duration="18324000" />
+      <workItem from="1689249797594" duration="403000" />
+      <workItem from="1689295522334" duration="5654000" />
+      <workItem from="1689302749792" duration="5682000" />
+      <workItem from="1689385505496" duration="7203000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat: 搭建环境">
+      <option name="closed" value="true" />
+      <created>1689164603062</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1689164603062</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: 优惠卷模板服务">
+      <option name="closed" value="true" />
+      <created>1689233946968</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1689233946968</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: 搭建优惠卷计算与用户服务">
+      <option name="closed" value="true" />
+      <created>1689250189645</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689250189645</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="feat: 搭建环境" />
+    <MESSAGE value="feat: 优惠卷模板服务" />
+    <MESSAGE value="feat: 搭建优惠卷计算与用户服务" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 搭建优惠卷计算与用户服务" />
+  </component>
+</project>

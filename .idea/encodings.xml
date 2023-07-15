@@ -1,22 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/springboot-single/coupon-calculation-service/coupon-calculation-api/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springboot-single/coupon-calculation-service/coupon-calculation-impl/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springboot-single/coupon-calculation-service/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springboot-single/coupon-calculation-service/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springboot-single/coupon-customer-service/coupon-customer-api/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springboot-single/coupon-customer-service/coupon-customer-api/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springboot-single/coupon-customer-service/coupon-customer-dao/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springboot-single/coupon-customer-service/coupon-customer-impl/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springboot-single/coupon-customer-service/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springboot-single/coupon-customer-service/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springboot-single/coupon-template-service/coupon-template-api/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springboot-single/coupon-template-service/coupon-template-dao/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springboot-single/coupon-template-service/coupon-template-impl/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springboot-single/coupon-template-service/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springboot-single/coupon-template-service/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springboot-single/middleware/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Nacos-Loadbalancer/coupon-calculation-service2/coupon-calculation-api2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Nacos-Loadbalancer/coupon-calculation-service2/coupon-calculation-api2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Nacos-Loadbalancer/coupon-calculation-service2/coupon-calculation-impl2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Nacos-Loadbalancer/coupon-calculation-service2/coupon-calculation-impl2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Nacos-Loadbalancer/coupon-calculation-service2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Nacos-Loadbalancer/coupon-calculation-service2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Nacos-Loadbalancer/coupon-customer-service2/coupon-customer-api2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Nacos-Loadbalancer/coupon-customer-service2/coupon-customer-api2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Nacos-Loadbalancer/coupon-customer-service2/coupon-customer-dao2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Nacos-Loadbalancer/coupon-customer-service2/coupon-customer-dao2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Nacos-Loadbalancer/coupon-customer-service2/coupon-customer-impl2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Nacos-Loadbalancer/coupon-customer-service2/coupon-customer-impl2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Nacos-Loadbalancer/coupon-customer-service2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Nacos-Loadbalancer/coupon-customer-service2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Nacos-Loadbalancer/coupon-template-service2/coupon-template-api2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Nacos-Loadbalancer/coupon-template-service2/coupon-template-api2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Nacos-Loadbalancer/coupon-template-service2/coupon-template-dao2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Nacos-Loadbalancer/coupon-template-service2/coupon-template-dao2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Nacos-Loadbalancer/coupon-template-service2/coupon-template-impl2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Nacos-Loadbalancer/coupon-template-service2/coupon-template-impl2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Nacos-Loadbalancer/coupon-template-service2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Nacos-Loadbalancer/coupon-template-service2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Nacos-Loadbalancer/middleware2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Nacos-Loadbalancer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Nacos-Loadbalancer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coupon-calculation-service/coupon-calculation-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coupon-calculation-service/coupon-calculation-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coupon-calculation-service/coupon-calculation-impl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coupon-calculation-service/coupon-calculation-impl/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coupon-calculation-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coupon-calculation-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coupon-customer-service/coupon-customer-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coupon-customer-service/coupon-customer-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coupon-customer-service/coupon-customer-dao/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coupon-customer-service/coupon-customer-dao/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coupon-customer-service/coupon-customer-impl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coupon-customer-service/coupon-customer-impl/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coupon-customer-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coupon-customer-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coupon-template-service/coupon-template-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coupon-template-service/coupon-template-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coupon-template-service/coupon-template-dao/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coupon-template-service/coupon-template-dao/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coupon-template-service/coupon-template-impl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coupon-template-service/coupon-template-impl/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coupon-template-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/coupon-template-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/middleware/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-single/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-single/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />

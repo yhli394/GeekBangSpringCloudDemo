@@ -13,7 +13,15 @@
         <option value="$PROJECT_DIR$/springboot单体项目/coupon-customer-service/pom.xml" />
         <option value="$PROJECT_DIR$/springboot单体项目/middleware/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-single/pom.xml" />
+        <option value="$PROJECT_DIR$/Nacos-Loadbalancer/pom.xml" />
+        <option value="$PROJECT_DIR$/Nacos-Loadbalancer/coupon-template-service2/pom.xml" />
+        <option value="$PROJECT_DIR$/Nacos-Loadbalancer/middleware2/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/Nacos-Loadbalancer/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="NullableNotNullManager">

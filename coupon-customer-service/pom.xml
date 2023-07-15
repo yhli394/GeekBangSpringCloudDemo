@@ -4,16 +4,20 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>yhli.work</groupId>
-        <artifactId>springboot-single</artifactId>
+        <artifactId>geekbang-spring-cloud-coupon-demo</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <artifactId>coupon-template-service</artifactId>
+    <groupId>yhli.work</groupId>
+    <artifactId>coupon-customer-service</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
+    <name>coupon-customer-service</name>
+    <description>coupon-customer-service</description>
     <modules>
-        <module>coupon-template-api</module>
-        <module>coupon-template-dao</module>
-        <module>coupon-template-impl</module>
+        <module>coupon-customer-api</module>
+        <module>coupon-customer-dao</module>
+        <module>coupon-customer-impl</module>
     </modules>
     <properties>
         <java.version>11</java.version>
