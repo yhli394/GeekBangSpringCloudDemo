@@ -3,6 +3,7 @@ package yhli.work.coupon.customer.api.beans;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import yhli.work.coupon.template.api.beans.CouponTemplateInfo;
 
 import javax.validation.constraints.NotNull;
 
@@ -26,5 +27,10 @@ public class RequestCoupon {
     @NotNull
     private Long couponTemplateId;
 
+    /** 优惠券模板信息 */
+    private CouponTemplateInfo templateSDK;
+
+    // Loadbalancer - 用作测试流量打标
+    private String trafficVersion;
 
 }
